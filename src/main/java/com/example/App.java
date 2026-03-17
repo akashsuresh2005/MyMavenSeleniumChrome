@@ -17,21 +17,21 @@ public class App {
         // ---------------------------------------------------
         // TAB 1 : SauceDemo
         // ---------------------------------------------------
-        driver.get("https://www.saucedemo.com/");
+        // driver.get("https://www.saucedemo.com/");
 
-        Thread.sleep(2000);
+        // Thread.sleep(2000);
 
-        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        // driver.findElement(By.id("user-name")).sendKeys("standard_user");
 
-        Thread.sleep(2000);
+        // Thread.sleep(2000);
 
-        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        // driver.findElement(By.id("password")).sendKeys("secret_sauce");
 
-        Thread.sleep(2000);
+        // Thread.sleep(2000);
 
-        driver.findElement(By.id("login-button")).click();
+        // driver.findElement(By.id("login-button")).click();
 
-        Thread.sleep(4000);
+        // Thread.sleep(4000);
 
 
 
