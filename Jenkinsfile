@@ -2,10 +2,9 @@ pipeline {
     agent any
 
     tools {
-        // Double-check that 'Maven' is the name configured in your 
-        // Jenkins 'Global Tool Configuration'
-        maven 'Maven'
-    }
+    maven 'Maven'
+    jdk 'JDK11' // Add this line
+}
 
     stages {
         stage('Checkout') {
