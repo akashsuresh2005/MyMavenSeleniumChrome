@@ -11,35 +11,12 @@ public class App {
 
     public static void main(String[] args) throws InterruptedException {
 
-        WebDriver driver = new ChromeDriver();
+     WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
         // ---------------------------------------------------
-        // TAB 1 : SauceDemo
+        // TAB 1 : PracticeTestAutomation
         // ---------------------------------------------------
-        // driver.get("https://www.saucedemo.com/");
-
-        // Thread.sleep(2000);
-
-        // driver.findElement(By.id("user-name")).sendKeys("standard_user");
-
-        // Thread.sleep(2000);
-
-        // driver.findElement(By.id("password")).sendKeys("secret_sauce");
-
-        // Thread.sleep(2000);
-
-        // driver.findElement(By.id("login-button")).click();
-
-        // Thread.sleep(4000);
-
-
-
-        // ---------------------------------------------------
-        // TAB 2 : PracticeTestAutomation
-        // ---------------------------------------------------
-        driver.switchTo().newWindow(WindowType.TAB);
-
         driver.get("https://practicetestautomation.com/practice-test-login/");
 
         Thread.sleep(2000);
@@ -59,7 +36,7 @@ public class App {
 
 
         // ---------------------------------------------------
-        // TAB 3 : AutomationExercise
+        // TAB 2 : AutomationExercise
         // ---------------------------------------------------
         driver.switchTo().newWindow(WindowType.TAB);
 
